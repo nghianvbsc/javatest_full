@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mặc định hệ thống sẽ có âm thanh trong lúc bạn chơi. Và bạn hoàn toàn có thể cài đặt ở phần 'cài đặt'. Các lựa chọn cho bạn là âm thanh, rung, cả hai hoặc không gì cả."
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_13sdp" />
+
+</ScrollView>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:text="@string/textView_chon_level"
+        android:textColor="@color/colorGreen"
+        android:textSize="@dimen/_20sdp" />
+
+    <Button
+        android:id="@+id/btnEasy"
+        style="@style/itemButtonLevel"
+        android:text="@string/button_de" />
+
+    <Button
+        android:id="@+id/btnMedium"
+        style="@style/itemButtonLevel"
+        android:text="@string/button_trung_binh" />
+
+    <Button
+        android:id="@+id/btnDifficult"
+        style="@style/itemButtonLevel"
+        android:text="@string/button_kho" />
+
+</LinearLayout>

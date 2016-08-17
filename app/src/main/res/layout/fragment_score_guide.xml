@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:id="@+id/tvDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trong mục điểm, bạn sẽ thấy số điểm lần cuối được chơi ở trên điện thoại và 5 bài test đạt mức cao nhất (nếu là mức chơi trung bình và khó thì sẽ ưu tiên thời gian ngắn nhất nếu bằng số điểm)"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_13sdp" />
+
+</ScrollView>

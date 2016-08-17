@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">JAVA Test</string>
+    <string name="textView_trac_nghiem">Trắc Nghiệm</string>
+    <string name="textView_java">JAVA</string>
+    <string name="button_choi_ngay">Chơi ngay</string>
+    <string name="button_diem_luu">Điểm</string>
+    <string name="button_cai_dat">Cài đặt</string>
+    <string name="button_huong_dan">Hướng dẫn</string>
+    <string name="textView_gioi_thieu">Giới Thiệu</string>
+    <string name="textView_noi_dung_gioi_thieu">Trắc nghiệm lập trình - là một mini game đơn giản
+        về kiến thứ lập trình căn bản. Ứng dụng là một bài test trắc nghiệm gồm có 3 mức độ khác nhau.
+        Bạn có thể lựa chọn mức độ của bài test thuộc một trong ba mức độ và có tối đa 20 câu
+        hỏi cho mỗi bài test. Ứng dụng sẽ tính điểm và đán giá năng lực của bạn. Chúc bạn đạt kết
+        quả tốt!</string>
+    <string name="textView_am_thanh">Âm thanh</string>
+    <string name="textView_rung">Rung</string>
+    <string name="textView_yen_tinh">Im lặng</string>
+    <string name="textView_diem_gan_nhat">Điểm gần nhất đạt được là</string>
+    <string name="button_de">Dễ</string>
+    <string name="button_trung_binh">Trung bình</string>
+    <string name="button_kho">Khó</string>
+    <string name="textView_chon_level">Cấp độ</string>
+</resources>

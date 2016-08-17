@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_10sdp"
+    tools:ignore="HardcodedText, ContentDescription">
+
+    <RelativeLayout
+        android:id="@+id/rlStartGame1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_start1"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvTitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:text="Bạn đã sẵn sàng chưa!"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:id="@+id/btnStartPlay1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tvTitle1"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_bat_dau"
+            android:clickable="true"
+            android:padding="@dimen/_10sdp"
+            android:text="Bắt đầu"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_15sdp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlStartGame2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_start2"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/tvTitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:text="Bắt đầu kiểm tra nhé!"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:id="@+id/btnStartPlay2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/tvTitle2"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_bat_dau"
+            android:clickable="true"
+            android:padding="@dimen/_10sdp"
+            android:text="Bắt đầu"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_15sdp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlPause1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_pause1"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvScorePause1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:text="Điểm hiện tại: 20"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:id="@+id/tvTrueAnswerPause1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tvScorePause1"
+            android:layout_marginRight="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Trả lời đúng: 14/20"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:id="@+id/tvLevelPause1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tvTrueAnswerPause1"
+            android:layout_marginRight="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Mức độ: Trung bình"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:id="@+id/btnContinuePause1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tvLevelPause1"
+            android:layout_marginRight="@dimen/_43sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/selector_bat_dau"
+            android:clickable="true"
+            android:padding="@dimen/_10sdp"
+            android:text="Tiếp tục"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:id="@+id/btnExitPause1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/btnContinuePause1"
+            android:layout_marginRight="@dimen/_43sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/selector_bat_dau"
+            android:clickable="true"
+            android:padding="@dimen/_10sdp"
+            android:text="Thoát"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_15sdp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlPause2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_pause2"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvScorePause2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_35sdp"
+            android:text="Điểm hiện tại: 20"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:id="@+id/tvTrueAnswerPause2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/tvScorePause2"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Trả lời đúng: 14/20"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:id="@+id/tvLevelPause2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/tvTrueAnswerPause2"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Mức độ: Trung bình"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:id="@+id/btnContinuePause2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/tvLevelPause2"
+            android:layout_marginLeft="@dimen/_43sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:background="@drawable/selector_bat_dau"
+            android:clickable="true"
+            android:padding="@dimen/_10sdp"
+            android:text="Tiếp tục"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:id="@+id/btnExitPause2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/btnContinuePause2"
+            android:layout_marginLeft="@dimen/_43sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:background="@drawable/selector_bat_dau"
+            android:clickable="true"
+            android:padding="@dimen/_10sdp"
+            android:text="Thoát"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_15sdp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlFinish"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_finish"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvScoreFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_35sdp"
+            android:text="Điểm : 20"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:id="@+id/tvTrueAnswerFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/tvScoreFinish"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Trả lời đúng: 14/20"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:id="@+id/tvLevelFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/tvTrueAnswerFinish"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Mức độ: Trung bình"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:id="@+id/tvReviewFinish"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/tvLevelFinish"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Tôi sẽ xem lại học lực của em!"
+            android:textColor="@color/colorRed"
+            android:textSize="@dimen/_11sdp" />
+
+        <TextView
+            android:id="@+id/btnExitFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/tvReviewFinish"
+            android:layout_marginLeft="@dimen/_43sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:background="@drawable/selector_bat_dau"
+            android:clickable="true"
+            android:padding="@dimen/_10sdp"
+            android:text="Thoát"
+            android:visibility="gone"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_15sdp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlScore"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_300sdp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_score"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_35sdp"
+            android:text="Điểm : 20"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:id="@+id/tvTrueAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tvScore"
+            android:layout_marginRight="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Đúng : 15/20 câu"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_15sdp" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trong lúc tham gia bài test, nếu bạn muốn dừng hoặc thóat khỏi bài test sẽ có 3 cách là nhấn vào phím mũi tên ở góc trên bên trái, phím back của điện thoại hoặc nhấn vào đồng hồ ở mà hình"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_13sdp" />
+
+</ScrollView>

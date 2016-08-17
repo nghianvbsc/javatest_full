@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="bscenter.tracnghiemlaptrinh.views.activities.HomeActivity"
+    tools:ignore="RtlHardcoded, ContentDescription, DisableBaselineAlignment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/_minus3sdp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_home" />
+
+    <TextView
+        android:id="@+id/tvTracNghiem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="@string/textView_trac_nghiem"
+        android:textColor="@color/colorGreen"
+        android:textSize="@dimen/_16sdp" />
+
+    <TextView
+        android:id="@+id/tvLapTrinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTracNghiem"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="@string/textView_java"
+        android:textAllCaps="true"
+        android:textColor="@color/colorGreen"
+        android:textSize="@dimen/_25sdp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvLapTrinh"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="@dimen/_5sdp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_minus5sdp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnPlay"
+                style="@style/ItemButtonHome"
+                android:text="@string/button_choi_ngay" />
+
+            <Button
+                android:id="@+id/btnNearScore"
+                style="@style/ItemButtonHome"
+                android:text="@string/button_diem_luu" />
+
+            <Button
+                android:id="@+id/btnSetting"
+                style="@style/ItemButtonHome"
+                android:text="@string/button_cai_dat" />
+
+            <Button
+                android:id="@+id/btnGuide"
+                style="@style/ItemButtonHome"
+                android:text="@string/button_huong_dan" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/frMainHome"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/picture_frame"
+            android:paddingBottom="@dimen/_6sdp"
+            android:paddingLeft="@dimen/_8sdp"
+            android:paddingRight="@dimen/_7sdp"
+            android:paddingTop="@dimen/_37sdp">
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

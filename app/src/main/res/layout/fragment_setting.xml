@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:gravity="center_horizontal"
+        android:text="@string/button_cai_dat"
+        android:textColor="@color/colorGreen"
+        android:textSize="@dimen/_20sdp" />
+
+    <CheckBox
+        android:id="@+id/cbAudio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:text="@string/textView_am_thanh"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_13sdp" />
+
+    <CheckBox
+        android:id="@+id/cbVibrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:text="@string/textView_rung"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_13sdp" />
+
+</LinearLayout>
